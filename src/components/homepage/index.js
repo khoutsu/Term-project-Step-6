@@ -17,6 +17,10 @@ function Homepage({ onLogout }) {
   const [noArtworksFound, setNoArtworksFound] = useState(false);
   const [keyword, setKeyword] = useState("");
   const [artworks, setArtworks] = useState([]);
+  // const title = localStorage.title;
+  // const firstname = localStorage.firstname;
+  // const lastname = localStorage.lastname;
+  // const picture = localStorage.picture;
 
   const onChangeKeyword = (event) => {
     setKeyword(event.target.value);
